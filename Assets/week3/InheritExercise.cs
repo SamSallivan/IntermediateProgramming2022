@@ -27,18 +27,5 @@ public class InheritExercise : MonoBehaviour
         }
     }
 
-    public Color MaterialColor{
-
-        get
-        {
-            return GetComponent<Renderer>().material.color;
-        }
-
-        private set // HitPoints cannot be set outside of class “Player”
-        {
-            GetComponent<Renderer>().material.color = value;
-        }
-
-    }
 }
 

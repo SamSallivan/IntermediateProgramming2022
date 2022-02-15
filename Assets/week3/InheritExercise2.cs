@@ -30,7 +30,7 @@ public class InheritExercise2 : InheritExercise
             return GetComponent<Renderer>().material.color;
         }
 
-        private set // HitPoints cannot be set outside of class “Player”
+        private set
         {
             GetComponent<Renderer>().material.color = value;
         }
